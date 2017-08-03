@@ -1,0 +1,74 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Risadinha.com</title>
+		<link href="geral.css" rel="stylesheet" type="text/css">
+	</head>
+
+<body>
+    <form method="post" action="./cadastro.aspx" id="form1">
+<div class="aspNetHidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="B40c8NFZ57r1A7JSwFSh3IwSBQlyee2Ah0PWFo4pjq7+jjUqh7pFLJ/moFULupir7+FvGVjWHJxN/yTwKk4bDNyVF3i4dFZiLxf5mqelRmU=" type="hidden">
+</div>
+
+<div class="aspNetHidden">
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D87FEEC1" type="hidden">
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Vrh3Xykde8WMmef8m9McBqU7e3ttW2SYLn8wXeiKQv1trG0crrBpzkV51hY3io3wn6ooGC5SGZOzTxED3KISlY8iaHwCG83gDU/ucBqHn1yh2SGPNXxD4iNvKlKWbQ5xsJqTI1qtmPyrYFrLnz0HMCMtzf7eg41uivvNYWTBvLat7cwd2LGsS0G0QRx96E2gYU2osa1N5SEHFn9rZG5IjVPwAJ26ZPrrhgKBelPg0FYhnuTmWIqTgu/J3ZepgNeU" type="hidden">
+</div>
+    
+    <div> 
+        <div id="imagem">
+            <img id="imagem" src="emojis.jpg">
+         </div>
+    
+    
+        <div id="topo"> </div>
+    
+        <h1 id="titulo">Risadinha.com</h1>
+        <p id="bem_vindo"> Bem vindo!!</p>
+    
+        <div id="logotipo"> </div>
+    
+        <div id="informacoes_cadastro">
+
+            <h2 style="width: 125px; margin-left: 80px"> Cadastrar</h2>
+
+            <span id="lblnome">Nome:</span>
+            <input name="txtnome" id="txtnome" placeholder="Ex:Facebookson" style="height:27px;width:273px;" type="text"> <br><br>
+
+            <span id="Lbldatanascimento">Data de nascimento:</span>
+            <input name="Txtdatanascimento" id="Txtdatanascimento" placeholder="Ex:13/09/1999" style="height:27px;width:111px;" type="text"> <br><br>
+
+            <span id="Lblapelido">Apelido:</span>
+            <input name="Txtapelido" id="Txtapelido" placeholder="Ex:Facinho" style="height:27px;width:256px;" type="text"> <br><br>
+
+            <span id="Lblemail">Email:</span>
+            <input name="Txtemail" id="Txtemail" placeholder="Ex:Facebookson.boladao@gmail.com" style="height:27px;width:274px;" type="text"> <br><br>
+
+            <span id="Lblsenha">Senha:</span>
+            <input name="Txtsenha" id="Txtsenha" placeholder="Ex:*********" style="height:27px;width:269px;" type="text"> <br>
+     
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+            <button id="cadastrar"> cadastar-se</button>
+        </div>
+    
+   
+        <div id="login">
+
+            <h2 id="entar" style="width: 85px; margin-left: 120px;"> Entrar</h2>
+
+            <span id="Lbl_email_login">Email:</span>
+            <input name="Txt_senha_loguin" id="Txt_senha_loguin" placeholder="Ex:Facebookson.boladao@gmail.com" style="height:27px;width:274px;" type="text"> <br><br>
+        
+            <span id="Lbl_senha_loguin">Email:</span>
+            <input name="Txt_loguin_senha" id="Txt_loguin_senha" placeholder="Ex:************" style="height:27px;width:274px;" type="text"> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+            <button id="logar"> Logar</button>
+        </div>        
+
+    </div>     
+    </form>
+
+
+</body>

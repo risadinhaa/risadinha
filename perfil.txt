@@ -1,0 +1,90 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head id="Head1">
+		<title>	Risadinha.com</title>	
+		<link href="geral.css" rel="stylesheet" type="text/css">		
+	</head>
+
+	<body>
+	
+	<form method="post" action="./perfil.aspx" id="form1">
+		
+	<div class="aspNetHidden">
+		<input name="__VIEWSTATE" id="__VIEWSTATE" value="jL9OedkQl9859wIcV03+r2lsfanQpJv96wFHloegVfTF/vg0QCTpc3RYQ+ljMJNlLcohfm6Ow9HSQpYoIuPz2r4WDtdq0htw9apo83Kec5o=" type="hidden">
+	</div>
+
+
+	<div class="aspNetHidden">
+
+		<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C3FFDA0B" type="hidden">
+	</div>
+        
+        
+	<div id="imagem">
+            <img id="imagem" src="emojis.jpg">
+        </div>
+        
+        <div id="topo"> 
+            <button id="sair"> Sair</button>
+            <button id="configuracao"> Configurações</button>
+            <button id="feed"> Feed</button>
+        </div>
+        
+        <!--<div id="botao">
+            <button style="position: absolute; right: 2%; height: 5%; width: 8%; top: 33px; margin-top: 19px;">Sair </button>
+        </div>-->
+        
+        <div> 
+            <img id="imagem_perfil" src="yara.jpg">
+        </div>
+        
+        <h1 id="apelido_perfil"> Porquinho Feliz</h1>
+        
+        <!--<h1 id="nome_perfil"> Yara Rangel</h1>-->
+           
+        <h1 id="titulo">Risadinha.com</h1>
+        
+        <!--<div id="opcoes">
+            <p>Apelido</p>
+            <p>Publicações</p>
+        </div>-->
+
+        <div class="risadas" style="left: 2%;">
+            
+	    <h2>Risadas Favoritas:</h2>
+            
+            <div class="risadas2">
+                <img src="yara.jpg" class="img-risada">
+                <p>|&gt;---------------------</p>
+            </div>
+            
+		<div class="risadas2">
+                <img src="yara.jpg" class="img-risada">
+                <p>|&gt;---------------------</p>
+
+            </div>
+          
+	  <div class="risadas2">
+                <img src="yara.jpg" class="img-risada">
+                <p>|&gt;---------------------</p>
+            </div>
+        </div>
+
+        <div class="risadas">
+            <h2>Histórico de Risadas:</h2>
+            <div class="risadas2">
+                <img src="yara.jpg" class="img-risada">
+                <p>|&gt;---------------------</p>
+            </div>
+            <div class="risadas2">
+                <img src="yara.jpg" class="img-risada">
+                <p>|&gt;---------------------</p>
+            </div>
+            <div class="risadas2">
+                <img src="yara.jpg" class="img-risada">
+                <p>|&gt;---------------------</p>
+            </div>
+        </div>
+    </form>
+
+</body></html>
