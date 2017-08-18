@@ -1,52 +1,184 @@
 body {
     margin: 0%;
+    background-color: black;
 }
 
-/*Pagina inicial*/
-
-#cadastrar_inicial {
-    position: absolute; 
-    top:5%;
-    right: 10%; 
+#topo {
+    position: absolute;
+    background-color: #000000; 
     height: 10%; 
-    width: 8%;
-    font-family:cursive;
-    font-size: 20px;
+    width:100%;
+    top: 0%;
+    opacity:0.2;
 }
+/*home*/
 
-#logar_inicial {    
-    position: absolute; 
-    top:5%;
-    right: 3%; 
-    height: 5%;
-    width: 8%;
-    font-family:cursive;
-    font-size:20px;
+#texto_somos {
+	font-family: cursive;
+    font-size: 150%;
+	color: white;
+	position: absolute;
+    height: 80%; 
+    width:35%;
+	top: 15%;
+	right: 2%;
+	text-align: justify;
 }
-
+#BTB {
+	font-family: cursive;
+    font-size: 150%;
+	position: absolute;
+    height: 80%; 
+    width:55%;
+	top: 15%;
+	left: 5%;
+	border-radius: 2%;
+}
+.Botoes {
+	font-family: cursive;
+	font-size: 150%;
+	background-color: #007acc;
+	border-color: transparent;
+	color: white;
+	position: absolute;
+	top: 75%;
+	height: 15%;
+	width: 30%;
+	border-radius: 5%;
+}
+#emoji {
+	position: absolute;
+	height:30%; 
+	width:20%; 
+	top: 2%;
+	left: 40%;
+}
+#Btexto {
+	position: absolute;
+	top: 35%;
+	left: 11%;
+}
 #somos {
-    font-family: cursive;
-    font-size: 10px;
-    /*height:500px;
-    width:500px;
-    top:10%;
-    right:60%;
-    left:10%;
-    background-color: green;
-    border-radius: 25px;
-    padding: 5px;*/
+    position: absolute;
+    background-color: black; 
+    height: 80%; 
+    width: 37%;
+    top: 15%;
+    right: 1%;
+    opacity:0.2;
+    border-radius: 3%;
 }
 
-#quem_somos {
-    font-size:10px;
-}
-#informacoes {
-    border-radius:25px;
-    padding:19px;
-    background-color: black;    
+/* cadastrar */
+
+#informacoes_cadastrar{
+	border-radius: 3%;
+	position: absolute;
+	font-family: cursive;
+	top: 25%;
+	right: 40%;
 }
 
-/*Pagina de login e cadastro*/
+#fundo_informacoes_cadastrar{
+    position: absolute;
+    background-color: black; 
+    height: 85%; 
+    width: 30%;
+    top: 13%;
+    right: 35%;
+    opacity:0.2;
+    border-radius: 3%;
+}
+
+#letra_cadastrar {
+	position: absolute;	
+	font-family: cursive;
+	color:white;
+	height: 60%; 
+	top: 10%;
+	right: 35%;
+	/*width: 25%;	
+	right: 38%;*/
+}
+#botao_cadastrar {
+	font-family: cursive;
+	font-size: 150%;
+	background-color: #007acc;
+	border-color: transparent;
+	color: white;
+	position: absolute;
+	top: 105%;	
+	left: 20%;
+	width: 60%;
+	height: 20%;
+
+
+/*	height: 60%;*/
+
+	border-radius: 5%;
+
+}
+
+/*logar*/
+
+#fundo_informacoes_logar {
+    position: absolute;
+    background-color: black; 
+    height: 50%; 
+    width: 30%;
+    top: 20%;
+    right: 35%;
+    opacity:0.2;
+    border-radius: 3%;
+}
+
+#informacoes_logar {
+	border-radius: 3%;
+	position: absolute;
+	font-family: cursive;
+	top: 35%;
+	right: 40%;
+}
+
+#botao_login {
+	font-family: cursive;
+	font-size: 150%;
+	background-color: #007acc;
+
+	border-color: transparent;
+	color: white;
+	position: absolute;
+	top: 105%;
+	left: 25%;
+	height: 60%;
+	width: 50%;
+	border-radius: 5%;
+}
+
+#letra_logar {
+	position: absolute;	
+	font-family: cursive;
+	color:white;
+	height: 60%; 
+	top: 20%;
+	right: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pagina de login e cadastro
 
 #bem_vindo {
     position: absolute;
@@ -91,31 +223,31 @@ body {
     position:absolute;
     font-family:cursive;
     font-size:15px;
-    /*top: 202px;
-    left: 146px;*/
-}
+    top: 202px;
+    left: 146px;
+}*/
 
 /*Background/ geral*/
 
-#topo {
-    background-color: #000000; 
-    height: 100px; 
-    width:100%;
-    opacity:0.7;
-}
 
-p {
+
+/*#topo p {
+	color: white;
     font-size: 35px;
     font-family: cursive;
+	text-align: right;
+	margin: 0%;
+}*/
+p {
+	color: white;
+    font-family: cursive;
 }
-
 #imagem {
     position: absolute;
-    /*height: 100%;
-    width: 100%;*/
+    height: 100%;
+    width: 100%;
+	top: 0%;
     opacity: 0.6;
-    height: 800px; 
-    width: 1349px;
 }
 
 #titulo {
@@ -266,3 +398,49 @@ p {
     position:absolute;
     opacity:0.5;
 }*/
+
+/*#cadastrar_inicial {
+    position: absolute; 
+
+    top:5%;
+
+    right: 10%; 
+
+    height: 10%; 
+
+    width: 8%;
+
+    font-family:cursive;
+
+    font-size: 20px;
+
+}
+
+
+
+#logar_inicial {    
+
+    position: absolute; 
+
+    top:5%;
+
+    right: 3%; 
+
+    height: 5%;
+
+    width: 8%;
+
+    font-family:cursive;
+
+    font-size:20px;
+
+}*/
+/*#informacoes {
+    border-radius:25px;
+
+    padding:19px;
+
+    background-color: black;    
+
+}*/
+
