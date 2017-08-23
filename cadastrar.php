@@ -1,58 +1,39 @@
 <?php
-echo "Funciona?<br>";
+
+	
 // RECEBENDO OS DADOS PREENCHIDOS DO FORMULÁRIO !
-    $nome= $_POST ["nome"];    //atribuição do campo "nome" vindo do formulário para variavel
-	$apelido= &_POST ["apelido"];    
-	$data_nascimento= &_POST[data_nascimento];	
-	$email= $_POST ["email"];  //atribuição do campo "email" vindo do formulário para variavel
-    $senha= $_POST ["senha"];  //atribuição do campo "senha" vindo do formulário para variavel
-    
-	echo "Bem vindo $nome<br>";
-	echo "$apelido";	
-	echo "$data_nascimento<br>";
-    echo "$email<br>";
-    echo "$senha<br>";
+	$nome= $_POST ["txt_nome_cadastrar"];//atribuição do campo "nome" vindo do formulário para variavel
+	$email= $_POST ["txt_email_cadastrar"];//atribuição do campo "email" vindo do formulário para variavel
+	$senha= $_POST ["txt_senha_cadastrar"];//atribuição do campo "senha" vindo do formulário para variavel
+	$data_de_nascimento= $_POST ["txt_data_de_nascimento_cadastrar"];//atribuição do campo "nome" vindo do formulário para variavel
+	$apelido= $_POST ["txt_apelido_cadastrar"];//atribuição do campo "email" vindo do formulário para variavel
 
-
-
-//Gravando no banco de dados ! conectando com o localhost - mysql
-    $conexao = mysqli_connect("localhost","root","root","risadinha"); //localhost é onde esta o banco de dados.
-    if (!$conexao)
-        die ("Erro de conexão com localhost, o seguinte erro ocorreu -> ".mysqli_connect_error());
-    else
-        echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
+	//Gravando no banco de dados ! conectando com o localhost - mysql
+	$conexao = mysqli_connect("localhost","root","root","risadinha"); //localhost é onde esta o banco de dados.
+	if (!$conexao)
+	    die ("Erro de conexão com localhost, o seguinte erro ocorreu -> ".mysqli_connect_error()); 
  
-    //conectando com a tabela do banco de dados
-    $query = "SELECT email from usuario where email=\"$email\"";
-    echo "<br>$query";
+	//conectando com a tabela do banco de dados
+    $query = "SELECT email from users where email=\"$email\"";
     if ($result = mysqli_query($conexao,$query)) {
         $row = $result->fetch_row();
         if ($row[0] == null || $row[0] == "") {
-            echo "go, mtf!";
-            //Query que realiza a inserção dos dados no banco de dados na tabela indicada acima
-
-
-
-//TODO: criar sequence no BD
-//TODO: puxar um nextvalue da sequence para colocar como valor do cod_usuario
-            $query = "INSERT INTO usuario (nome, email, senha) VALUES (\"$nome\", \"$email\", \"$senha\")";
-            if($result = mysqli_query($conexao,$query))
-                echo "Seu cadastro foi realizado com sucesso!";
-            else
-                echo "bosta.";
+            
+    	    $query = "INSERT INTO users (nome, email, senha, apelido, data_de_nascimento) VALUES (\"$nome\", \"$email\", \"$senha\", \"$apelido\", \"$data_de_nascimento\")";
+    	    if($result = mysqli_query($conexao,$query))
+    	        echo "Seu cadastro foi realizado com sucesso!"; 
+					           
+			else
+                echo "erro."; 
+					
         } else {
-            echo "<br>Email já cadastrado: \"", $row[0],"\".";
+            echo "<br>Email já cadastrado: \"", $row[0],"\"."; 
         }
     } else {
-        echo "bug ao consultar o BD.";       
+        echo "bug ao consultar o BD.";  
+			
     }
     $result->close();
     mysqli_close($conexao);
-    
-//$banco = mysqli_select_db("usuario",$conexao); //nome da tabela que deseja que seja inserida os dados cadastrais
-    //if (!$banco)
-    //die ("Erro de conexão com banco de dados, o seguinte erro ocorreu -> ".mysql_error());
- 
- 
-   
+	
 ?>
