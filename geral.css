@@ -82,10 +82,10 @@ body {
 #fundo_informacoes_cadastrar{
     position: absolute;
     background-color: black; 
-    height: 85%; 
+    height: 75%; 
     width: 30%;
     top: 13%;
-    right: 35%;
+    right: 33%;
     opacity:0.2;
     border-radius: 3%;
 }
