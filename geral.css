@@ -11,6 +11,20 @@ body {
     top: 0%;
     opacity:0.2;
 }
+
+/*Estamos trabalhando*/
+
+#trabalhar{
+	font-family: cursive;
+    font-size: 250%;
+	color: white;
+	position: absolute;
+    height: 300%; 
+    width:35%;
+	top: 50%;
+	right: 55%;
+	text-align: justify;
+}
 /*home*/
 
 #texto_somos {
