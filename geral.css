@@ -133,6 +133,11 @@ body {
 
 }
 
+#frase_email{
+    left: 20%;
+    font-family: cursive;
+    width: 60%;
+}
 /*logar*/
 
 #fundo_informacoes_logar {

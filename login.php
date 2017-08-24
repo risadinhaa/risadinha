@@ -11,7 +11,7 @@
 	    die ("Erro de conexão com localhost, o seguinte erro ocorreu -> ".mysqli_connect_error()); 
  
 	//conectando com a tabela do banco de dados
-    $query = "SELECT apelido from users where email=\"$email\" and senha=\"$senha\";
+    $query = "SELECT apelido from users where email=\"$email\" and senha=\"$senha\"";
     if ($result = mysqli_query($conexao,$query)) {
         $row = $result->fetch_row();
         if ($row[0] == null || $row[0] == "") {
@@ -21,7 +21,8 @@
     	    
 					
         } else {
-            echo "<br>vai login: \"", $row[0],"\"."; 
+            header("Location: estamos_trabalhando.html"); 
+            
         }
     } else {
         echo "bug ao consultar o BD.";  

@@ -28,7 +28,8 @@
                 echo "erro."; 
 					
         } else {
-            echo "<br>Email já cadastrado: \"", $row[0],"\"."; 
+            header("Location: cadastrar_erro.html");
+
         }
     } else {
         echo "bug ao consultar o BD.";  
