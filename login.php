@@ -21,7 +21,7 @@
     	    
 					
         } else {
-            header("Location: estamos_trabalhando.html"); 
+            header("Location: pag_estamos_trabalhando.html"); 
             
         }
     } else {
