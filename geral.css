@@ -31,6 +31,16 @@ body {
 
 
 /*página das publicações*/ 
+#body_pag_publicacao{
+
+}
+
+#fundo_publicacoes {
+    background-color:#FFFAFA;
+    width: 45px;
+    height: 45px;
+    top:20%;
+}
 
 #notificacao_imagem_emoji{
     position: absolute; 
@@ -56,6 +66,14 @@ body {
     left: 83%;   
 }
 
+#imagem_icon_feed{
+    position: absolute; 
+    top: 0%;   
+    width: 65px;
+    height: 65px;
+    left: 80%;   
+
+}
 
 /*home*/
 
