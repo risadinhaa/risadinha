@@ -36,45 +36,62 @@ body {
 }
 
 #fundo_publicacoes {
-    background-color:#FFFAFA;
-    width: 45px;
-    height: 45px;
+    width: 900px;
+    height: 900px;
     top:20%;
+    background-color:#FFFAFA;
+    left:30%;
 }
 
-#notificacao_imagem_emoji{
+#imagem_icon_notificacao{
     position: absolute; 
-    top: 1%;   
+    top: 2%;   
+    width: 40px;
+    height: 40px;
+    left: 87%;
+}
+
+#imagem_icon_exit {
+   position: absolute; 
+   top: 2%;   
+   width:35px;
+   height:35px;
+   left: 97%;
+}
+
+#imagem_icon_home{
+    position: absolute; 
+    top: 1.5%;   
     width: 45px;
     height: 45px;
-    left: 90%;
-}
-
-#imagem_botao_sair {
-   position: absolute; 
-   top: 0%;   
-   width: 65px;
-   height: 65px;
-   left: 95%;
-}
-
-#imagem_foto_de_perfil{
-    position: absolute; 
-    top: 0%;   
-    width: 65px;
-    height: 65px;
-    left: 83%;   
+    left: 72%;   
 }
 
 #imagem_icon_feed{
     position: absolute; 
-    top: 0%;   
-    width: 65px;
-    height: 65px;
-    left: 80%;   
+    top: 2%;   
+    width: 40px;
+    height: 40px;
+    left: 82%;   
 
 }
 
+#imagem_icon_users{
+    position: absolute; 
+    top: 1.5%;   
+    width: 45px;
+    height: 45px;
+    left: 77%;   
+}
+
+#imagem_icon_chat{
+    position: absolute; 
+    top: 2%;   
+    width: 40px;
+    height: 40px;
+    left: 92%;
+} 
+}
 /*home*/
 
 #texto_somos {
