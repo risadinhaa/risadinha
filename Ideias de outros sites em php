@@ -93,5 +93,12 @@ class Exemplo
  ?>
  <!--?=$variavel?-->
  
+ -----------------------------------------------
+ <!--?<br /--> #opcao normal
+ $variavel = "123";
  
+ #opcao com duas linhas
+ $variavelnova = "123"
+ ; 
+ ?>
  
