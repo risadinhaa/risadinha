@@ -114,6 +114,6 @@ class Exemplo
   #$variavel = "meu texto";
  echo $variavel;
  //resultado serÃ¡ em branco
- 
+ ?>
 
 
