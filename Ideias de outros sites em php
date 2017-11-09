@@ -88,5 +88,7 @@ class Exemplo
  echo $variavel;
  //resultado na tela = meu texto 2
  ?>  
+ <!--?="meu texto";?-->
+ <!--? <br /--> $variavel = "teste";
  
  
