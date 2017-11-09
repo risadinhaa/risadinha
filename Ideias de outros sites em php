@@ -42,3 +42,12 @@
   </title>
 </head>
 <body>
+
+  <?php include('cabecalho.php') ?>
+
+  <?php echo $conteudo ?>
+
+  <?php include('rodape.php') ?>
+
+</body>
+</html>
