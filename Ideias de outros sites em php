@@ -104,3 +104,15 @@ class Exemplo
  
  ----------------------------------------
  
+<!--?<br /--> // este Ã© um comentÃ¡rio de linha simples
+ 
+ # este Ã© outro comentÃ¡rio de linha simples
+ 
+ /*
+ este Ã© um comentÃ¡rio de linha mÃºltipla
+ */
+ 
+ #$variavel = "meu texto";
+ echo $variavel;
+ //resultado serÃ¡ em branco
+ ?>
