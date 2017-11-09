@@ -70,4 +70,6 @@ class Exemplo
                 <input type="hidden" name="_id_" value="7706">
                 <a class="vote-up-off" title="Esta resposta é útil">votar a favor</a>
                 <span class="vote-count-post ">3</span>
-        
+                <a class="vote-down-off" title="Esta resposta não é útil">votar contra</a>
+              </div>
+          
