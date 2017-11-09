@@ -51,3 +51,23 @@
 
 </body>
 </html>
+---------------------------------------------------------
+
+
+<?php
+
+class Exemplo
+{
+
+  public function resposta()
+  {
+    echo '<div id="answer-7706" class="answer" data-answerid="7706">
+      <table>
+        <tbody>
+          <tr>
+            <td class="votecell">
+              <div class="vote">
+                <input type="hidden" name="_id_" value="7706">
+                <a class="vote-up-off" title="Esta resposta é útil">votar a favor</a>
+                <span class="vote-count-post ">3</span>
+        
