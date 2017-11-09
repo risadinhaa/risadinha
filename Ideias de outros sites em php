@@ -91,6 +91,6 @@ class Exemplo
  <!--?="meu texto";?-->
  <!--? <br /--> $variavel = "teste";
  ?>
- <!--?=$variav
+ <!--?=$variavel
  
  
