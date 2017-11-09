@@ -17,7 +17,7 @@ body {
 
 #imagem_fundo_principal{
 
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
     top: 0%;
@@ -35,14 +35,42 @@ body {
 
 }
 
-#fundo_publicacoes {
-    width: 900px;
-    height: 900px;
-    top:20%;
-    background-color:#FFFAFA;
-    left:30%;
+#nome_usuario_pag_publicacoes{
+    position: absolute;
+    left: 23%;
+    top:14%;
 }
 
+#fundo_publicacoes {
+    position: absolute;
+    top:10%;
+    left: 15.5%;
+    width: 1000px;
+    height: 627px;
+    background-color:#FFFAFA;
+    opacity: 0.6;
+    
+}
+
+#publicacoes{
+    position: absolute;;
+    width: 850px;
+    height: 500px;
+    background-color:#FFFAFA;
+    left: 20%;
+    top: 23%; 
+}
+
+#imagem_icon_users_fundo_publicacao{
+    position: absolute;
+    border-radius: 2px;
+    width: 70px;
+    height: 70px;
+    top:11%;
+    left: 17%;
+
+
+}
 #imagem_icon_notificacao{
     position: absolute; 
     top: 2%;   
@@ -53,7 +81,7 @@ body {
 
 #imagem_icon_exit {
    position: absolute; 
-   top: 2%;   
+   top: 2.5%;   
    width:35px;
    height:35px;
    left: 97%;
