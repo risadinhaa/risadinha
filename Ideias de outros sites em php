@@ -115,5 +115,5 @@ class Exemplo
  echo $variavel;
  //resultado serÃ¡ em branco
  ?>
-
+------------------------------------------------
 
