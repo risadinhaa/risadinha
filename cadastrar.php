@@ -32,7 +32,7 @@
 
         }
     } else {
-        echo "bug ao consultar o BD.";  
+        echo "bug ao consultar o banco de dados"
 			
     }
     $result->close();
