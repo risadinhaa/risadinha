@@ -30,9 +30,9 @@
         } else {
             header("Location: cadastrar_erro.html");
 
-        }
+        } 
     } else {
-        echo "bug ao consultar o banco de dados"
+        echo "erro ao consultar o BD"
 			
     }
     $result->close();
